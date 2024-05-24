@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatuador - Agendamento Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="flex-container">
+        <div class="home-content">
+            <h1>Bem-vindo ao Studio de Tatuagem</h1>
+            <p>Transforme sua pele em arte com nosso talentoso tatuador.</p>
+        </div>
+        <div class="home-image">
+            <img src="imagens/tattoo1.png" alt="Imagem de uma tatuagem">
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Eu sou um tatuador profissional com anos de experiência, mais de 5.000 tatuagens aplicadas, criando arte personalizada para cada cliente Especialista em esculpir histórias.
+            “ 𝚃𝚑𝚎 𝙶𝚘𝚕𝚍𝚎𝚗 𝚃𝚘𝚞𝚌𝚑 𝙸𝚗 𝚈𝚘𝚞𝚛 𝙻𝚒𝚏𝚎 “.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <button id="whatsapp-btn">Agende pelo WhatsApp</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Studio de Tatuagem</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000; /* Fundo preto */
+    color: #c2ab5f; /* Texto dourado escuro */
+}
+
+header {
+    background-color: #111; /* Preto mais claro para contraste */
+    color: #c2ab5f;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #c2ab5f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fff; /* Cor branca ao passar o mouse */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-wrap: wrap; /* Adiciona flexibilidade para telas menores */
+}
+
+.home-content, .home-image {
+    flex: 1;
+    margin: 1rem;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 2px solid #d4af37; /* Borda dourada escura */
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 1px solid #333; /* Linha de divisão entre seções */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+form label, form input, form textarea, form button {
+    margin: 0.5rem 0;
+    width: 80%;
+    max-width: 500px;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    border: 1px solid #c2ab5f;
+    background-color: #111;
+    color: #c2ab5f;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    background-color: #c2ab5f;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #c2ab5f; /* Tom mais escuro de dourado */
+}
+
+#whatsapp-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#whatsapp-btn:hover {
+    background-color: #128c7e; /* Tom mais escuro de verde */
+}
+
+footer {
+    background-color: #111;
+    color: #c2ab5f;
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #333;
+}
+
+image{
+    size: 20px
+}
