@@ -3,13 +3,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000; /* Fundo preto */
-    color: #c2ab5f; /* Texto dourado escuro */
+    background-color: #000; 
+    color: #c2ab5f; 
 }
 
 header {
-    background-color: #111; /* Preto mais claro para contraste */
-    color: #c2ab5f;
+    background-color: #111; 
     padding: 1rem;
     text-align: center;
 }
@@ -33,14 +32,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #fff; /* Cor branca ao passar o mouse */
+    color: #fff;
 }
-
 .flex-container {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-    flex-wrap: wrap; /* Adiciona flexibilidade para telas menores */
+    flex-wrap: wrap; 
 }
 
 .home-content, .home-image {
@@ -57,13 +55,14 @@ nav ul li a:hover {
 .home-image img {
     max-width: 100%;
     border-radius: 8px;
-    border: 2px solid #d4af37; /* Borda dourada escura */
+    border: 2px solid #d4af37; 
 }
 
 section {
     padding: 2rem;
     text-align: center;
-    border-bottom: 1px solid #333; /* Linha de divisão entre seções */
+    border-bottom: 1px solid #333; 
+
 }
 
 form {
@@ -98,7 +97,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #c2ab5f; /* Tom mais escuro de dourado */
+    background-color: #c2ab5f; 
 }
 
 #whatsapp-btn {
@@ -113,7 +112,7 @@ form button:hover {
 }
 
 #whatsapp-btn:hover {
-    background-color: #128c7e; /* Tom mais escuro de verde */
+    background-color: #128c7e; 
 }
 
 footer {
